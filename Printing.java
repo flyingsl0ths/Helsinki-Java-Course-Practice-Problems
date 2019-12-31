@@ -2,9 +2,10 @@ public class Printing
 {
     public static void main(String[] args)
     {
-        //printStars(5);
-        //printSquare(5);
-        printRectangle(17, 3);
+        // printStars(5);
+        // printSquare(5);
+        // printRectangle(17, 3);
+        // printTriangle(4);
     }
     
     public static void printStars(int amount)
@@ -29,6 +30,14 @@ public class Printing
         for(int i = 0; i < height; i++)
         {
             printStars(width);
+        }
+    }
+    
+    public static void printTriangle(int size)
+    {
+        for(int i = 1; i <= size; i++)
+        {
+            printStars(i);
         }
     }
 }

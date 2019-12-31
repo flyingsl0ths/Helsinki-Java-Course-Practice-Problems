@@ -4,17 +4,12 @@ public class LeapYear
 {
     public static void main(String[] args)
     {
-        Scanner reader = new Scanner(System.in);
-        int[] ages = new int[4];
-        for(int i = 0, l = ages.length; i < l; i++)
-        {
-            checkYear(reader);
-            System.out.println();
-        }
+        checkYear();
     }
     
-    public static void checkYear(Scanner readr)
+    public static void checkYear()
     {
+        Scanner readr = new Scanner(System.in);
         int year = 0;
         
         try

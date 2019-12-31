@@ -4,13 +4,14 @@ public class GradesNPoints
 {
     public static void main(String[] args)
     {
-        Scanner reader = new Scanner(System.in);
-        gradePoints(reader);
+        gradePoints();
     }
     
-    public static void gradePoints(Scanner readr)
+    public static void gradePoints()
     {
+        Scanner readr = new Scanner(System.in);
         int point = 0;
+        
         try
         {
             System.out.print("Type the points [0-60]: ");

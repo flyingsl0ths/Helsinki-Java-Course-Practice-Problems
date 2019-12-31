@@ -9,7 +9,7 @@ public class ReadingUserInput
         // divider(reader);
         // circumference(reader);
         // biggestNumber(reader);
-        sumOfAges(reader);
+        // sumOfAges(reader);
     }
     
     public static void adder(Scanner readr)

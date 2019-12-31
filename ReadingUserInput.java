@@ -3,8 +3,16 @@ import java.util.Scanner;
 public class ReadingUserInput
 {   
     public static void main(String[] args)
-    {
+    {   
         Scanner reader = new Scanner(System.in);
+        
+        /* Inludes exercises:
+         * Adder
+         * Divider
+         * Circumference
+         * Biggest Number
+         * Sum Of Ages
+        */
         // adder(reader);
         // divider(reader);
         // circumference(reader);

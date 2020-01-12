@@ -22,7 +22,7 @@ public class NumberStatistics
     {
         return this.amountOfNumbers;
     }
-    
+
     public int sum() 
     {
         if (amountOfNumbers == 0) 
@@ -36,15 +36,15 @@ public class NumberStatistics
     public double average() 
     {
         double average;
-        
+
         if (amountOfNumbers == 0) {
             return 0;
         } else {
             average = (double) this.sum / this.amountOfNumbers;
             return average;
         }
-    }
-    
+    } // End of NumberStatistics Class
+
     private static class AskForNumbers
     {
         private Scanner reader;

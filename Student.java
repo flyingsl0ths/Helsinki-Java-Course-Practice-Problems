@@ -1,3 +1,5 @@
+// Exercise 88: Students
+
 import java.util.Scanner;
 import java.util.ArrayList;
 

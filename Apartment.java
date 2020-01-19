@@ -1,3 +1,5 @@
+// Exercise 87: Apartment comparison
+
 public class Apartment 
 {
     private int rooms;

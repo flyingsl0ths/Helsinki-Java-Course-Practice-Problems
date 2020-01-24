@@ -1,27 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@flyingsl0ths 
-flyingsl0ths
-/
-Helsinki-Java-Course-Practice-Problems
-1
-00
- Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
-Added Exercis 103
-
- master
-@flyingsl0ths
-flyingsl0ths committed 6 minutes ago
-1 parent 7b0cd7b commit f549ae8b0d3b5b9c3fbba047339404778b2b2033
-Showing  with 167 additions and 0 deletions.
- 167  BirdWatchers.java 
-@@ -0,0 +1,167 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
